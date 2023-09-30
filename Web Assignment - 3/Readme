@@ -1,0 +1,6 @@
+This README introduces "Table CheckList," an interactive HTML document designed to display student information and awards.
+The table allows users to select specific rows using checkboxes, making it easy to manage and interact with student records.
+It combines HTML, CSS, and JavaScript to create a user-friendly table.
+Key features include checkbox selection, row expansion for additional details, and buttons for adding new students and submitting selected awards. 
+Customize the appearance and functionality by editing the included CSS and JavaScript files. 
+Simply download the HTML file, ensure the accompanying CSS and JavaScript files are in the same directory, and open it in a web browser to get started. 
