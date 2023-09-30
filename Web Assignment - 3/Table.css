@@ -1,0 +1,23 @@
+#myTable input {
+	margin-left: 5px;
+}
+
+#myTable {
+	border:2px solid green;
+	border-collapse: collapse;
+	margin:auto;
+	margin-top: 100px;
+}
+#myTable td, th {
+	border:1px solid green;
+	padding: 5px;
+}
+#myTable th {
+	color: #fff;
+	background-color: #a7c942;
+}
+button{margin-top: 50px;border-style: solid;}
+
+tr[class=dropDownTextArea]{
+	display: none;
+}
