@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Feedback</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ <div id="container">
+	 
+	 <main>
+	 <h2>Feeback</h2>
+	 <h3>Love something? Hate something? Let us know!</h3>
+		 Note : Fields marked with an asterisk(*) are mandatory
+		 <br><br>
+		 <form id="myForm">
+			<label>Title*:</label>
+			<input type="radio" name="title" id="miss" value="Ms." required="required"/>Ms.
+			<input type="radio" name="title" id="mr" value="Mr." required="required"/>Mr.
+			<input type="radio" name="title" id="mrs" value="Mrs." required="required"/>Mrs.
+			<br><br>
+			<label for="firstName">First Name*:</label>
+			<input type="text" name="firstName"  required="required" onblur="validinput(this,1,'FName')" id="firstName" placeholder="First Name" />	
+			<br><br>
+
+			<div id="errorMsgFName" style="display:none; color:red;">
+				Please enter valid first name.
+			</div>
+			
+			<label for="lastName">Last Name*:</label>
+			<input type="text" name="lastName" id="lastName" required="required" onblur="validinput(this,1,'LName')" placeholder="Last Name" />
+			<br><br>
+
+			<div id="errorMsgLName" style="display:none; color:red;">
+				Please enter valid last name.
+			</div>
+			
+			<label for="emailId">Email Id*:</label>
+			<input type="text" name="emailId" id="emailId" required="required" onblur="validinput(this,3, 'Email')" placeholder="yourname@domain.com" />
+			<br><br>
+
+			<div id="errorMsgEmail" style="display:none; color:red;">
+				Please enter valid email city.
+			</div>
+
+			<label for="phoneNumber">Phone Number*:</label>
+			<input type="text" name="phoneNumber" id="phoneNumber" required="required" onblur="validinput(this,4, 'Phone')" placeholder="xxx-xxx-xxxx" />
+			<br><br>
+
+			<div id="errorMsgPhone" style="display:none; color:red;">
+				Please enter valid phone number.
+			</div>
+
+			<label for="streetAddress1">Street Address 1*:</label>
+			<input type="text" name="streetAddress1" id="streetAddress1" required="required" onblur="validinput(this,6, 'Address1')" placeholder="address" />
+			<br><br>
+
+			<div id="errorMsgAddress1" style="display:none; color:red;">
+				Please enter valid address.
+			</div>
+
+			<label for="streetAddress2">Street Address 2:</label>
+			<input type="text" name="streetAddress2" id="streetAddress2" onblur="validinput(this,-1)" placeholder="address" />
+			<br><br>
+
+			<label for="city">City*:</label>
+			<input type="text" name="city" id="city" required="required" onblur="validinput(this,7, 'City')" placeholder="city" />
+			<br><br>
+
+			<div id="errorMsgCity" style="display:none; color:red;">
+				Please enter valid city.
+			</div>
+
+			<label for="state">State*:</label>
+			<input type="text" name="state" id="state" required="required" onblur="validinput(this,8, 'State')" placeholder="state" />
+			<br><br>
+
+			<div id="errorMsgState" style="display:none; color:red;">
+				Please enter valid state.
+			</div>
+			
+            <label for="zipcode">ZipCode*:</label>
+			<input type="text" name="zipcode" id="zipcode" required="required" onblur="validinput(this,5, 'Zip')" placeholder="xxxxxx" />
+			<br><br>
+
+			<div id="errorMsgZip" style="display:none; color:red;">
+				Please enter valid zipcode.
+			</div>
+
+             
+            <label for="zipcode">How did you hear*:</label>
+			<input type='checkbox' name="source" value="facebook" /> Facebook
+            <input type='checkbox' name="source" value="google" /> Google
+            <input type='checkbox' name="source" value="Instagram" /> Instagram 
+			<br><br> 
+             
+			<label for="comments">Comments*:</label>
+			<textarea name="text" id="comments" placeholder="Your comments" rows="5" cols="25"></textarea>
+			<br><br>
+			<div>
+				<label for="menu">Menu*:</label>
+				<select name="menu" id="menu" onchange="showText()">
+					<option value="default" selected>Select an option</option>
+					<option value="appetizer">Appetizer</option>
+					<option value="roti">Roti</option>
+					<option value="biriyani">Biriyani</option>
+					<option value="softdrink">Soft Drink</option>
+					<option value="None">None</option>
+				</select>
+				<br><br>
+				
+				<div  id="selectionbody">
+					<label for="source1" id="source" class="selection"></label>
+					<input hidden = "true" type="checkbox" id="source1" name="source100" value="Crispy Chicken" class="selection" onchange="showUP(this, id)"><br>			
+					<br>
+					<label hidden = "true" for="comments1" id="comments11" class="selection">Suggestions*:</label>
+					<textarea hidden = "true" name="text1"  class ="selection" id="comments1" placeholder="Suggestions about item selected" rows="5" cols="25"></textarea>
+				</div>
+			</div>
+			<br><br>
+			
+			<input type="submit" value="Submit" id="submitButton" onclick="showData()" disabled>
+			<input type="Reset" onclick="reset()">
+			<br><br>
+		 </form>
+	</main>
+</div>
+
+<div id="container1">
+	<table id="userTable">
+		<thead>
+			<tr>
+				<th>Full Name</th>						
+				<th>Phone Number</th>
+				<th>Email ID</th>
+				<th>Address 1</th>						
+				<th>Address 2</th>
+				<th>City</th>
+				<th>State</th>
+				<th>Zip Code</th>
+				<th>Comments</th>
+				<th>Source</th>
+				<th>Menu</th>
+				<th>Menu Comment</th>
+
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+		
+	</table>
+</div>
+ <script src="script.js">
+	
+ </script>
+
+ </body>
+</html>
