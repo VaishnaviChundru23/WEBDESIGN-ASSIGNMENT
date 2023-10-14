@@ -1,0 +1,11 @@
+
+  // Control Directives
+  @if (lightness(nth($button-colors, 1)) > 50%) {
+    input[type="submit"] {
+      background-color: #000;
+    }
+  } @else {
+    input[type="submit"] {
+      background-color: #fff;
+    }
+  }

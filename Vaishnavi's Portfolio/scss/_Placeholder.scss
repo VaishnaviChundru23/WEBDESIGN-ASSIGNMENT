@@ -1,0 +1,14 @@
+// Placeholder Selector
+%form-element {
+    width: 100%;
+    padding: var(--input-padding);
+    margin-bottom: var(--input-margin);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+  }
+  
+  %flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

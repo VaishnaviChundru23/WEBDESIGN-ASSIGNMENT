@@ -1,0 +1,23 @@
+// Mixins
+@mixin button-styles {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+  
+    @mixin box-shadow($h-offset, $v-offset, $blur, $color) {
+      box-shadow: $h-offset $v-offset $blur $color;
+    }
+    
+    // Custom Property Mixin
+    @mixin gradient-background($color-1, $color-2) {
+      background: linear-gradient(to bottom, $color-1, $color-2);
+    }
+    &:hover {
+      background-color: var(--secondary-color);
+    }
+  }

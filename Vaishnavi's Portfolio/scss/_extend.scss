@@ -1,0 +1,56 @@
+.error-message {
+    border: 1px solid #FF0000;
+    color: #FF0000;
+  }
+  
+  .contact form {
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  
+    input[type="text"] {
+      @extend .error-message;
+    }
+  
+    input[type="email"] {
+      @extend .error-message;
+    }
+  
+    // Control Directives
+    @if (lightness(nth($button-colors, 1)) > 50%) {
+      input[type="submit"] {
+        background-color: #000;
+      }
+    } @else {
+      input[type="submit"] {
+        background-color: #fff;
+      }
+    }
+  
+    // Operators
+    .form-group {
+      margin: 10px + 5px;
+      padding: 20px - 5px;
+    }
+  
+    // Maps
+    $font-styles: (
+      heading: (font-size: 28px, font-weight: bold),
+      paragraph: (font-size: 16px, font-weight: normal),
+    );
+  
+    h2 {
+      @include map-get($font-styles, heading);
+    }
+  
+    p {
+      @include map-get($font-styles, paragraph);
+    }
+  }
+ 

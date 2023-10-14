@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Works</title>
+    <link rel="stylesheet" href="path-to-bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" class="logo" alt="Logo">
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li class="right-nav"><a href="Index.html">Home</a></li>
+                <li class="right-nav"><a href="about.html">About Me</a></li>
+                <li class="left-nav"><a href="Myworks.html">My Works</a></li>
+                <li class="left-nav"><a href="Certifications.html">Certifications</a></li>
+                <li class="left-nav"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="My Works" id="myworks">
+        <div class="container">
+        <h2>My Works</h2>
+        <div class="project-container">
+            <div class="project">
+                <img src="Project-1.png" alt="Project 1"  data-image="project1-full.jpg">
+                <h3>CLASSIFICATION USING MICRO-ARRAY DATA</h3>
+                <p>Operate on various classification algorithms on microarray datasets where the main problem with this dataset is its dimensionality.Applied 3 optimization techniques (PCA, ICA and MI) on models, namely KNN, Random Forest Classifier and Decision Tree.</p>
+            </div>
+            <div class="project">
+                <img src="Project-2.png" alt="Project 2" class="portfolio-image" data-image="project2-full.jpg">
+                <h3>LEAKY INTEGRATE AND FIRE NEURON MODEL LATENCY ESTIMATION USING FNS</h3>
+                <p>Using the neuron simulator FNS (Firenet NeuroScience), we estimate the latency of neuron model with different parameters. 
+                    The artificial neural data using the parameters like number of neurons, rewiring probability and excitatory ratio is generated using the config wizard which provides an xml file. 
+                    Feeding that xml file to the FNS simulator we get csv files which are used to visualize the raster plots in MATLAB.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Vaishnavi Chundru. All Rights Reserved.</p>
+    </footer>
+    <script src="path-to-jquery/jquery.min.js"></script>
+    <script src="path-to-bootstrap/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

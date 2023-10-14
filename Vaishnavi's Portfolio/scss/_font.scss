@@ -1,0 +1,12 @@
+$font-styles: (
+    heading: (font-size: 28px, font-weight: bold),
+    paragraph: (font-size: 16px, font-weight: normal),
+  );
+
+  h2 {
+    @include map-get($font-styles, heading);
+  }
+
+  p {
+    @include map-get($font-styles, paragraph);
+  }
