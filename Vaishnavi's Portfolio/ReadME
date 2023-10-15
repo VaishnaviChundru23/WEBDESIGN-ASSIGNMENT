@@ -1,0 +1,8 @@
+This Website is about my Portfolio. This README provides an overview of the features implemented in My Portfolio, along with details on how and where these features are used in the web pages.
+In this Website SASS/SCSS styles define the layout, fonts, and colors.
+Variables and custom properties are used for consistent theming and styling.
+Nesting and Mixins structure the styles and ensure readability.
+Placeholder selectors are used for flexible styling.
+Custom functions calculate styles for responsive design.
+Common Elements (e.g., header, footer) are Reusable styles and variables are defined in SASS/SCSS for common elements.
+SASS/SCSS files are organized into folders for UI features, common elements, and themes to ensure maintainability and separation of concerns.
