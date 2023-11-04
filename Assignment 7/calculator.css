@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(138, 103, 172);
+    margin: 80px;
+    padding: 50px;
+}
+
+h2 {
+    color: #333;
+}
+
+.container {
+    background-color: rgb(185, 162, 208);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.number-input {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+
+.error-msg {
+    color: red;
+}
+
+button {
+    background-color: rgb(185, 162, 208);
+    color: white;
+    padding: 10px 20px;
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(92, 52, 132);
+}
+
+.result {
+    margin: 20px;
+}
+
+/* Additional styles can be added based on your preferences. */

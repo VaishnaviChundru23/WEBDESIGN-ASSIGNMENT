@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(138, 103, 172); 
+}
+
+.container {
+    max-width: 600px; /* Fixed size or */
+    width: 80vw; /* Responsive size based on the width of the viewport */
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(185, 162, 208); 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.loginform {
+    max-width: 100%; 
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+label {
+    color: red;
+    display: block; 
+    font-size: small;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: red;
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+}
+
+.btn-primary {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+
+}
+
+.btn-primary:hover {
+    background-color: #534e4e;
+}
+
+.button[disabled] {
+    filter: grayscale(100%); 
+    -webkit-filter: grayscale(100%); 
+    cursor: not-allowed; 
+}
+
+
+
+
+  

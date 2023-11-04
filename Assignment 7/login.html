@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5 mb-4">LOGIN</h1>
+        <form class="loginform" id="loginform">
+
+            <div class="form-group">
+                <input type="email" placeholder="Email" id="email" name="email" required><br>
+                <div class="error-message" id="email-error"></div>
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Name" id="name" name="name" required><br>
+                <div class="error-message" id="name-error"></div>
+            </div>
+
+            <div class="form-group">
+                <input type="password" placeholder="Password" id="password" name="password" required><br>
+                <div class="error-message" id="password-error"></div>
+            </div>
+
+            <div class="form-group">
+                <input type="password" placeholder="Confirm Password" id="confirmpassword" name="confirmpassword" required><br>
+                <div class="error-message" id="confirmpassword-error"></div>
+            </div>
+
+            <a href="Calculator.html" class="link">
+                <button type="submit" class="btn btn-primary" onclick="onclicksignup()">Login</button>
+            </a>
+        </form>
+    </div>
+    
+    <br><br>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
