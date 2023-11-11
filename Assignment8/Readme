@@ -1,0 +1,8 @@
+I developed a Node.js application that performs CRUD operations, interfacing with a MongoDB database named UserDataBase. This application includes the following APIs:
+
+1. Create: Allows the insertion of new user details into the database, utilizing the POST method.
+2. Edit: Employs the PUT method to update specific user details, namely fullname and password, while excluding email modifications.
+3. Delete: Enables the removal of users from the database through the DELETE method.
+4. getAll: Uses the GET method to fetch all user details stored in the database.
+
+For testing these operations, Postman has been utilized. The application runs on port 9000.
