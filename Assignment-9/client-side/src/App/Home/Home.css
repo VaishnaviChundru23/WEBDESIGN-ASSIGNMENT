@@ -1,0 +1,64 @@
+.homeMain{
+    background-image: url("../../Images/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+}
+
+.homeDiv{
+    padding-top:5rem;
+    width:60%;
+    margin-left: 20%;
+    line-height: 2;
+}
+
+.homebtn{
+    padding: 5px 20px;
+    background-color: #f05d07;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -40px;
+    margin-top: 10px;
+    animation: bounce 1.5s infinite;
+
+    @keyframes bounce {
+      to { transform: scale(1); }
+    }
+}
+
+.logout{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.homeDiv h4{
+    color: white;
+}
+
+.homeDiv h1{
+    color: #f05d07;
+    transform: scale(1.5);
+}
+
+.fade-and-rotate {
+    animation: fadeAndRotate 2s linear infinite;
+  }
+  
+  @keyframes fadeAndRotate {
+    0% {
+      opacity: 0;
+      transform: rotate(0deg);
+    }
+    50% {
+      opacity: 1;
+      transform: rotate(45deg);
+      transform: scale(1.5);
+    }
+    100% {
+      /* opacity: 0; */
+      transform: rotate(-45deg);
+      transform: scale(1);
+    }
+  }

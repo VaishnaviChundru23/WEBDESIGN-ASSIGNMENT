@@ -1,0 +1,114 @@
+.loginMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-image: url("../../Images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(255, 115, 63); */
+    font-family: cursive;
+    height: 100vh;
+}
+
+.loginForm{
+    border: 2px solid black;
+    padding: 3rem;
+    border-radius: 10px;
+    background-color: transparent; 
+    margin-bottom: 2rem;
+    width: 20%;
+    margin-left: 50%;
+    /* margin-top: 40%; */
+}
+
+.inputField label{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 0.5s ease-in;
+    margin-top: 2rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-weight: 600;
+}
+
+.heading{
+    margin-top: -2rem;
+    color: black;
+    text-decoration: underline;
+}
+
+.mainHeading{
+   margin-left: -1rem;
+   margin-bottom: 8rem;
+   margin-top: -4rem;
+}
+
+.mainHeading{
+    transition: all 0.5s ease-in-out;
+}
+
+.mainHeading:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+.btn {  
+  text-align: center;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  color: white;
+
+  padding: 0.5rem 1rem;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 0.5s ease-in;
+    margin-top: 2rem;
+}
+.btn:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}

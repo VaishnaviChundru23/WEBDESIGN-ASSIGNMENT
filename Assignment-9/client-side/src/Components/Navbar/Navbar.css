@@ -1,0 +1,49 @@
+body{
+    background-color: white;
+}
+
+.navMain{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li{
+    margin-right: 3rem;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+
+h1{
+    margin-left: 3rem;
+}
+
+.logo{
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 3rem;
+}

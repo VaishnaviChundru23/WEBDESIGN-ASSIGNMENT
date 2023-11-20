@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "company": "Google",
+      "description": "We are looking for a software engineer to join our team and help build innovative new products. The ideal candidate will have experience with Java, Python, and cloud technologies such as AWS and Azure.",
+      "location": "Mountain View, CA",
+      "salary": "$120,000 - $150,000"
+    },
+    {
+      "id": 2,
+      "title": "Front-End Developer",
+      "company": "Google",
+      "location": "Mountain View, CA",
+      "description": "We are looking for a Front-End Developer to join our team and help build the user interface for our next generation of products. The ideal candidate will have experience working with React and Redux, as well as a deep understanding of web standards and best practices.",
+      "salary": "$90,000 - $110,000"
+    },
+    {
+      "id": 3,
+      "title": "Back-End Developer",
+      "company": "Amazon",
+      "location": "Seattle, WA",
+      "description": "We are seeking a Back-End Developer with expertise in Java and AWS to join our team. The ideal candidate will have experience building scalable microservices and working with large datasets. You will work closely with our product and design teams to build the next generation of our platform.",
+      "salary": "$100,000 - $130,000"
+    },
+    {
+      "id": 4,
+      "title": "Network Engineer",
+      "company": "Cisco Systems",
+      "description": "We are seeking a network engineer to design and maintain our global network infrastructure. The ideal candidate will have experience with Cisco networking equipment and protocols such as OSPF and BGP.",
+      "location": "San Jose, CA",
+      "salary": "$100,000 - $130,000"
+    },
+    {
+      "id": 5,
+      "title": "AWS Cloud Architect",
+      "company": "Amazon Web Services",
+      "location": "Seattle, WA",
+      "description": "The AWS Cloud Architect will design and implement highly scalable and available cloud-based solutions using AWS technologies.",
+      "salary": "$120,000 - $150,000 per year"
+    },
+    {
+      "id": 6,
+      "title": "AWS DevOps Engineer",
+      "company": "Microsoft Azure",
+      "location": "Redmond, WA",
+      "description": "The AWS DevOps Engineer will work on designing and deploying cloud-based solutions using AWS technologies and implementing continuous integration and delivery pipelines.",
+      "salary": "$130,000 - $160,000 per year"
+    },
+    {
+      "id": 7,
+      "title": "Hardware Design Engineer",
+      "company": "Apple",
+      "description": "We are seeking a hardware design engineer to help develop the next generation of Apple products. The ideal candidate will have experience with circuit design, PCB layout, and embedded systems programming.",
+      "location": "Cupertino, CA",
+      "salary": "$130,000 - $160,000"
+    },
+    {
+      "id": 8,
+      "title": "Firmware Engineer",
+      "company": "Tesla",
+      "location": "Palo Alto, CA",
+      "description": "We are seeking a Firmware Engineer with expertise in embedded systems to join our team. The ideal candidate will have experience with low-level programming and real-time operating systems, as well as a deep understanding of hardware-software interfaces.",
+      "salary": "$110,000 - $140,000"
+    },
+    {
+      "id": 9,
+      "title": "Circuit Design Engineer",
+      "company": "Intel",
+      "location": "Santa Clara, CA",
+      "description": "We are looking for an Electronics Design Engineer to join our team and help develop the next generation of our products. The ideal candidate will have experience with high-speed digital design and simulation, as well as a deep understanding of power delivery and thermal management.",
+      "salary": "$130,000 - $160,000"
+    }
+  ]

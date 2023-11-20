@@ -1,0 +1,30 @@
+.Container{
+    margin:0px 50px;
+    transition: all 200ms;
+    padding:20px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 3rem;
+    width: 80%;
+    display: inline-block;
+}
+
+.Container div{
+    margin-top:20px;
+}
+
+
+.titleTag{
+    font-size: 50px;
+    font-family: 'Poor Story', cursive;
+    font-weight: bold;
+    transition: all 500ms;
+    display: inline-block;
+    margin-right: 10px;
+    text-shadow: 1px 2px 3px #999;
+  }
+
+.titleTag:hover{
+    transform: scale(1.5);
+    animation: vibrate 50ms linear infinite forwards;
+}
